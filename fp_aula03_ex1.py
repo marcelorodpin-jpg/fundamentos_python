@@ -1,13 +1,10 @@
-# Autor: Nilton Barros
-# Projeto Estrutura Condicional
+# Autor: Marcelo Rodrigues
+# Projeto f-string | roud
+pi = 3.14159265
 
-nota1 = float(input('Digite a primeira nota do aluno: '))
-nota2 = float(input('Digite a segunda nota do aluno: '))
-nota3 = float(input('Digite a terceira nota do aluno: '))
-nota4 = float(input('Digite a quarta nota do aluno: '))
-media = (nota1 + nota2 + nota3 + nota4) / 4
-
-if media >= 5:
-    print(f'Aluno aprovado!{media:.2f}')
-else:
-    print(f'Aluno reprovado!:( {media:.2f}')
+#ultilizando o f-strings
+print(f'o valor de pi é: {pi: .2f}')
+print(f'o valor de pi é: {pi: .3f}')
+print(f'o valor de pi é: {pi: .4f}')
+print(round(pi, 3))
+print(f'o valor de pi é: {round(pi, 3)}')

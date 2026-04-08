@@ -1,15 +1,19 @@
-# Autor: Nilton Barros
-# Projeto Calculadora com recebimento de dados do usuário
+# autor:marcelo
+# meu terceiro projeto em python
 
-# variável do tipo int é relativa a valores inteiros 
-# a palavra reservada input é usada para receber dados do usuário
-valor1 = int (input('Digite o primeiro valor: '))
-valor2 = int (input('Digite o segundo valor: '))
-soma = valor1 + valor2
-print(soma)
+print('olá mundo!')
+print('meu primeiro programa em python')
+print('marcelo')
 
-# para gerar um print com texto, preciso que o texto esteja entre aspas
-print('O resultado da soma é: ', soma)  
+# criação de variáveis para uma calculadora de somar
+# regras basicas para criar variáveis:
+# 1. o nome da variavel deve começar ccom uma letra ou um sublinhado
+# 2. nunca usar ascentos, espaços ou caracteres especiais
+# 3. o nome da variavel deve ser autoexplicativo
+# 4. o nome da variável não pode ter espaço
+# 5. nunca usar palavras reservada
 
-# print formatado usando f-string
-print(f'O resultado da soma é: {soma}')
+vaor1 = 114
+valor2 = 30
+resultado = vaor1 / valor2
+print( resultado )

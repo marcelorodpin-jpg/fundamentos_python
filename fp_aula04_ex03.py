@@ -9,7 +9,7 @@ bafometro = (input('consumiu bebida alcolica: '))
 # and - ambas as condições são verdadeiras
 #para que o resultado seja verdadeiro
 
-if cm == 'sim' and bafometro != 'sim':
+if cm == 'sim' and bafometro and bafometro == 'nao' or 'não':
      print('acesso liberado, pode seguir viagem')
 else:
     print('acesso bloqueado, volta para casa rapaz')

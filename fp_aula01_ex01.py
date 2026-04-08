@@ -1,18 +1,26 @@
-# Autor: Nilton Barros
-# Meu primeiro projeto em Python
+# autor:marcelo
+# meu primeiro projeto em python
 
-print('Olá Mundo!')
-print('Meu primeiro programa em Python')
-print('Nilton Barros')
+print('olá mundo!')
+print('meu primeiro programa em python')
+print('marcelo')
 
-# Criação de variáveis para uma calculadora de somar
-# regras básicas para criar variáveis:
-# nunca usar acentos, espaços ou caracteres especiais
-# o nome da variável deve ser autoexplicativo
-# nunca usar palavras reservadas
+# criação de variáveis para uma calculadora de somar
+# regras basicas para criar variáveis:
+# 1. o nome da variavel deve começar ccom uma letra ou um sublinhado
+# 2. nunca usar ascentos, espaços ou caracteres especiais
+# 3. o nome da variavel deve ser autoexplicativo
+# 4. o nome da variável não pode ter espaço
+# 5. nunca usar palavras reservada
 
 valor1 = 114
 valor2 = 30
 soma = valor1 + valor2
-print(soma)
+print('o resultado da soma é', soma )
+divisao = valor1 / valor2
+print('o resultado da divisao é' , divisao)
+multiplicacao = valor1 * valor2
+print('o resultado da multiplicacao é' ,multiplicacao)
+subtracao = valor1 - valor2
+print('o resultado da subtracao é' ,subtracao)
 

@@ -1,18 +1,18 @@
-# Programa para calcular área e valor total de um terreno
+# autor:marcelo
+#  desafio 01 aula 01
 
-# 1. Recebendo as entradas do usuário
-# Usamos float() para permitir números decimais (ex: 10.5m)
-largura = float(input("Digite a largura do terreno (metros): "))
-comprimento = float(input("Digite o comprimento do terreno (metros): "))
-valor_m2 = float(input("Digite o valor do metro quadrado (R$): "))
+print('olá mundo!')
+print('sexto programa em python')
+print('marcelo')
 
-# 2. Calculando a área (largura x comprimento)
-area = largura * comprimento
+#A imobiliária MORE BEM gostou tanto do projeto que está solicitando um upgrade no sistema
+# , além da largura e comprimento do terreno o consultor vai lançar o valor do metro daquele terreno
+# , além de mostrar a área também vai mostrar o valor total do terreno.
 
-# 3. Calculando o valor total (área x valor por metro quadrado)
-valor_total = area * valor_m2
-
-# 4. Exibindo os resultados
-print(f"ÁREA DO TERRENO: {area:.2f} m²")
-print(f"VALOR TOTAL: R$ {valor_total:.2f}")
-
+valor3 = int (input('digite a largura'))
+valor4 = int (input('digite o comprimento'))
+valor5 = (input('digite o valor metro quadrado'))
+resultado1 = valor3*valor4
+resultado2 = resultado1*valor3
+print('a area total do terreno é: ',resultado1,'metros quadrados')
+print('o valor total do terreno é: ',resultado2,'metros quadrados')

@@ -1,14 +1,19 @@
-# Programa para calcular área
+# autor:marcelo
+#  desafio 01 aula 01
 
-# 1. Recebendo as entradas do usuário
-# Usamos float() para permitir números decimais (ex: 10.5m)
-largura = float(input("Digite a largura do terreno (metros): "))
-comprimento = float(input("Digite o comprimento do terreno (metros): "))
+print('olá mundo!')
+print('setimo programa em python')
+print('marcelo')
+#
 
-# 2. Calculando a área (largura x comprimento)
-area = largura * comprimento
+#Você foi contratado pela imobiliária MORE BEM, e precisa criar uma solução
+#  para facilitar o trabalhos dos consultores, eles precisam inserir
+#  a largura e o comprimeto de um terreno e obter a área do mesmo.
 
-# 4. Exibindo os resultados
-print(f"ÁREA DO TERRENO: {area:.2f} m²")
+valor1 = int (input('digite a largura'))
+valor2 = int (input('digite o comprimento'))
+soma = valor1 + valor2
+print('a area total do terreno é: ',soma,'metros quadrados')
+print('obrigado por usar nosso programa')
 
 
