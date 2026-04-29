@@ -22,19 +22,21 @@ def calcular():
 
     if imc < 18.5:
         classificacao = 'Abaixo do peso'
+        cor = 'green'
     elif 18.5 <= imc < 25:
         classificacao = 'Peso normal'
+        cor = 'yellow'
+
     elif 25 <= imc < 30:
         classificacao = 'Acima do peso'
+        cor = 'orange'
     else:
         classificacao = 'Obeso'
-    resultado_label.configure(text=f'Seu IMC é: {imc:.2f}-sua classificação é {classificacao}')
-
-
+        cor = 'red'
+    resultado_label.configure(text=f'Seu IMC é: {imc:.2f}\nSua classificação é:\n {classificacao}',text_color=cor)
 
 #Criação de elementos da tela
-entrada_altura = ctk.CTkEntry(janela, 
-                              width=360,
+entrada_altura = ctk.CTkEntry(janela,                               width=360,
                               height=40,
                               font=('Arial', 12),
                               placeholder_text='digite sua altura em metros:')
@@ -53,7 +55,9 @@ resultado_botao = ctk.CTkButton(janela,
                                 font=('Arial', 12),
                                 text='Calcular',
                                 command=calcular,
-                                corner_radius=8)
+                                corner_radius=8,
+                                fg_color='green',)
+                                
                                 
 resultado_botao.pack(pady=20)
 
@@ -61,7 +65,7 @@ resultado_botao.pack(pady=20)
 resultado_label = ctk.CTkLabel(janela,
                                 width=360,
                                 height=40,
-                                font=('Arial', 12),
+                                font=('Arial', 16),
                                 text='')
 resultado_label.pack(pady=20)
 

@@ -15,7 +15,7 @@ resposta = requests.get(url)
 dados = resposta.json()
 
 
-# O caminho correto é entrar na chave 'current' primeiro
+# O print abaixo exibe o horário, temperatura e velocidade do vento para a localização fornecida pelo usuário. Ele acessa os dados do clima usando as chaves apropriadas no dicionário JSON retornado pela API. 
 print(f"Horário: {dados['current']['time']}")   
 print(f"Temperatura: {dados['current']['temperature_2m']}°C")
 print(f"Velocidade do Vento: {dados['current']['wind_speed_10m']} km/h")
